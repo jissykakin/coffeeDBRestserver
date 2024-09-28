@@ -23,7 +23,7 @@ recuerden que deben de ejecutar ``` npm install ``` para reconstruir los módulo
 ```
 
 
-3. Crea el archivo ```.env``` con las variables de entorno indicadas en el archivo ``` .env copy ``` y asignale los valores
+3. Crea el archivo ```.env``` con las variables de entorno indicadas en el archivo ``` .env copy ``` 
 ```
 PORT=
 MONGODB_CNN = 
@@ -38,9 +38,9 @@ CLOUDINARY_URL=
 
 4. Crea la Base de datos en Mongo compass o mongo atlas y configura la varable MONGODB_CNN
 
-5. configura Google y coudinary para poder utilizar sus servicios.
+5. Configura Google [SignIn](https://accounts.google.com/login?hl=en_GB) y [Coudinary](https://cloudinary.com/documentation/image_upload_api_reference) para poder utilizar sus servicios y configura las variables de entorno.
 
-Run, for a dev server. 
+6. Run, for a dev server. 
 
 ```ts
   ng serve ó npm start
